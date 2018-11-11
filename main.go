@@ -30,7 +30,7 @@ func removePage(title string) {
 	if err != nil {
 		return
 	}
-	fmt.Println("deleted file")
+	fmt.Println("deleted file " + title + ".txt")
 }
 
 func main() {
